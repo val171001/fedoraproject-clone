@@ -1,10 +1,16 @@
-import React from 'react';
+import React from 'react'
+import Header from './Header.jsx'
+import FedoraInfo from './FedoraInfo.jsx'
+import NewsContainer from './NewsContainer.jsx'
 
 export default class App extends React.Component {
   render() {
     return (
-     <div style={{textAlign: 'center'}}>
-        <h1>Hello World</h1>
-      </div>);
+     <div>
+       <Header />
+       <FedoraInfo />
+       <NewsContainer />
+     </div>
+    )
   }
 }
