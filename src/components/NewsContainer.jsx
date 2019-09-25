@@ -1,25 +1,9 @@
 import React from 'react';
 import News from './News.jsx'
+import postList from '../../rsrc/posts.json'
 
 export default class Header extends React.Component {
     render() {
-
-        const postList = [
-            {
-                title: 'Managing network interfaces and FirewallD in Cockpit',
-                tldr: "In the last article, we saw how Cockpit can manage storage devices. This article will focus on the networking functionalities within the UI. We'll see how to manage the interfaces attached to the system in Cockpit. We'll also look at the firewall and demonstrate how to assign a zone to an interface, and allow/deny services...",
-                thumbnail: 'https://fedoramagazine.org/wp-content/uploads/2019/09/cockpit-networking-300x127.jpg',
-                url: 'https://fedoramagazine.org/managing-network-interfaces-and-firewalld-in-cockpit/',
-                month: 'SEP', day:20
-            },
-            {
-                title: 'CodeReady Containers: complex solutions on OpenShift + Fedora',
-                tldr: "Want to experiment with (complex) solutions on OpenShift 4.1+? CodeReady Containers (CRC) on a physical Fedora server is a great choice. It lets you: Configure the RAM available to CRC / OpenShift (this is key as we'll deploy Machine Learning, Change Data Capture, Process Automation and other solutions with significant memory requirements) Avoid installing anything on...",
-                thumbnail: 'https://fedoramagazine.org/wp-content/uploads/2019/09/codeready-containers-300x127.jpg',
-                url: 'https://fedoramagazine.org/managing-network-interfaces-and-firewalld-in-cockpit/',
-                month: 'SEP', day:24
-            },
-        ]
         const renderPosts = []
         let index=0
         postList.forEach(value => {
@@ -31,6 +15,7 @@ export default class Header extends React.Component {
                     url={value.url}
                     month={value.month}
                     day={value.day}
+                    comments={value.comments}
                     key={index}
                 />
             )

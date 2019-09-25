@@ -1,5 +1,5 @@
 import React from 'react';
-//TODO Add icons for comments
+
 export default class News extends React.Component {
     constructor(props) {
         super(props)
@@ -77,8 +77,9 @@ export default class News extends React.Component {
                                 Read more...
                             </a>
                         </div>
-                        <div style={{paddingRight: '15px', paddingTop: '5px', float: 'right'}}>
-                            1
+                        <div style={{paddingRight: '15px', float: 'right', display:'grid', gridTemplateColumns: 'auto auto'}}>
+                            <img style={{verticalAlign: 'center', margin:'5px'}} src={'../rsrc/comment.png'}></img>
+                            <p>{this.props.comments}</p>
                         </div>
                     </div>
                 </div>

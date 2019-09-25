@@ -1,0 +1,37 @@
+[
+    {
+        "title": "Fedora and CentOS Stream",
+        "tldr": "You may have seen the announcement about changes over at the CentOS Project. (If not, please go ahead and take a few minutes and read it — I’ll wait!) And now you may be wondering: if CentOS is now upstream of RHEL, what happens to Fedora? Isn’t that Fedora’s role in the Red Hat ecosystem? Don’t worry. There are changes to the big picture, but they’re all for the better....",
+        "thumbnail": "https://fedoramagazine.org/wp-content/uploads/2019/09/centos-stream-300x127.jpg",
+        "url": "https://fedoramagazine.org/fedora-and-centos-stream/",
+        "month": "SEP", "day":24, "comments": 1
+    },
+    {
+        "title": "CodeReady Containers: complex solutions on OpenShift + Fedora",
+        "tldr": "Want to experiment with (complex) solutions on OpenShift 4.1+? CodeReady Containers (CRC) on a physical Fedora server is a great choice. It lets you: Configure the RAM available to CRC / OpenShift (this is key as we'll deploy Machine Learning, Change Data Capture, Process Automation and other solutions with significant memory requirements) Avoid installing anything on...",
+        "thumbnail": "https://fedoramagazine.org/wp-content/uploads/2019/09/codeready-containers-300x127.jpg",
+        "url": "https://fedoramagazine.org/managing-network-interfaces-and-firewalld-in-cockpit/",
+        "month": "SEP", "day":24, "comments": 0
+    },
+    {
+        "title": "Managing network interfaces and FirewallD in Cockpit",
+        "tldr": "In the last article, we saw how Cockpit can manage storage devices. This article will focus on the networking functionalities within the UI. We'll see how to manage the interfaces attached to the system in Cockpit. We'll also look at the firewall and demonstrate how to assign a zone to an interface, and allow/deny services...",
+        "thumbnail": "https://fedoramagazine.org/wp-content/uploads/2019/09/cockpit-networking-300x127.jpg",
+        "url": "https://fedoramagazine.org/managing-network-interfaces-and-firewalld-in-cockpit/",
+        "month": "SEP", "day":20, "comments": 2
+    },
+    {
+        "title": "Announcing the release of Fedora 31 Beta",
+        "tldr":"The Fedora Project is pleased to announce the immediate availability of Fedora 31 Beta, the next step towards our planned Fedora 31 release at the end of October. Download the prerelease from our Get Fedora site: Get Fedora 31 Beta Workstation Get Fedora 31 Beta Server Or, check out one of our popular variants, including...",
+        "thumbnail": "https://fedoramagazine.org/wp-content/uploads/2019/09/f31-beta-300x127.jpg",
+        "url": "https://fedoramagazine.org/announcing-the-release-of-fedora-31-beta/",
+        "month": "SEP", "day":17, "comments": 43
+    },
+    {
+        "title": "Copying large files with Rsync, and some misconceptions",
+        "tldr":"There is a notion that a lot of people working in the IT industry often copy and paste from internet howtos. We all do it, and the copy-and-paste itself is not a problem. The problem is when we run things without understanding them. Some years ago, a friend who used to work on my team...",
+        "thumbnail": "https://fedoramagazine.org/wp-content/uploads/2019/08/rsync-300x127.jpg",
+        "url": "https://fedoramagazine.org/copying-large-files-with-rsync-and-some-misconceptions/",
+        "month": "SEP", "day":16, "comments": 26
+    }
+]

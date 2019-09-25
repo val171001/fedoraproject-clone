@@ -1,5 +1,5 @@
 import React from 'react';
-//TODO Add icons next to text
+
 export default class FedoraInfo extends React.Component {
     render() {
         const container = {
@@ -29,16 +29,19 @@ export default class FedoraInfo extends React.Component {
             <div style={container}>
                 <div style={divSty}>
                     <a style={aSty} href={'https://docs.fedoraproject.org/'}>
+                        <img style={{verticalAlign: 'center', marginRight: '10px'}} src={'../rsrc/docs.png'}></img>
                         Documentación de Fedora
                     </a>
                 </div>
                 <div style={divSty}>
                     <a style={aSty} href={'https://ask.fedoraproject.org/'}>
+                        <img style={{verticalAlign: 'center', marginRight: '10px'}} src={'../rsrc/help.png'}></img>
                         Ayuda para los Usuarios de Fedora
                     </a>
                 </div>
                 <div style={divSty}>
                     <a style={aSty} href={'https://getfedora.org'}>
+                        <img style={{verticalAlign: 'center', marginRight: '10px'}} src={'../rsrc/download.png'}></img>
                         Obtenga Fedora
                     </a>
                 </div>
