@@ -19,7 +19,7 @@ export default class FedoraInfo extends React.Component {
             alignItems: 'center',
             justifyContent: 'center',
             textDecoration: 'none',
-            border: '1px solid #808080'
+            borderRight: '2px solid #808080'
         }
         const aSty = {
             textDecoration: 'none',
