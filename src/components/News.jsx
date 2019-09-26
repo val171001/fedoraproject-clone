@@ -78,7 +78,7 @@ export default class News extends React.Component {
                             </a>
                         </div>
                         <div style={{paddingRight: '15px', float: 'right', display:'grid', gridTemplateColumns: 'auto auto'}}>
-                            <img style={{verticalAlign: 'center', margin:'5px'}} src={'../rsrc/comment.png'}></img>
+                            <img style={{height: '40px', wisth: 'auto', verticalAlign: 'center', margin:'0', padding:'0'}} src={'https://i.postimg.cc/tYxqKsdn/comment.png'}></img>
                             <p>{this.props.comments}</p>
                         </div>
                     </div>

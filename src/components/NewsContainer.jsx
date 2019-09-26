@@ -1,6 +1,6 @@
 import React from 'react';
 import News from './News.jsx'
-import postList from '../../rsrc/posts.json'
+import postList from '../resources/posts.json'
 
 export default class Header extends React.Component {
     render() {

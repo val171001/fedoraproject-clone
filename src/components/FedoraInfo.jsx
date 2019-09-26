@@ -25,23 +25,29 @@ export default class FedoraInfo extends React.Component {
             textDecoration: 'none',
             color: 'white'
         }
+        const imgSty = {
+            verticalAlign: 'center',
+            marginRight: '10px',
+            height: '24px',
+            width: 'auto'
+        }
         return (
             <div style={container}>
                 <div style={divSty}>
                     <a style={aSty} href={'https://docs.fedoraproject.org/'}>
-                        <img style={{verticalAlign: 'center', marginRight: '10px'}} src={'../rsrc/docs.png'}></img>
+                        <img style={imgSty} src={'https://i.postimg.cc/Hr1YdT3Z/docs.png'}></img>
                         Documentación de Fedora
                     </a>
                 </div>
                 <div style={divSty}>
                     <a style={aSty} href={'https://ask.fedoraproject.org/'}>
-                        <img style={{verticalAlign: 'center', marginRight: '10px'}} src={'../rsrc/help.png'}></img>
+                        <img style={imgSty} src={'https://i.postimg.cc/Y4ptL85Q/help.png'}></img>
                         Ayuda para los Usuarios de Fedora
                     </a>
                 </div>
                 <div style={divSty}>
                     <a style={aSty} href={'https://getfedora.org'}>
-                        <img style={{verticalAlign: 'center', marginRight: '10px'}} src={'../rsrc/download.png'}></img>
+                        <img style={imgSty} src={'https://i.postimg.cc/k2Nn5Lpn/download.png'}></img>
                         Obtenga Fedora
                     </a>
                 </div>
