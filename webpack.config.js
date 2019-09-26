@@ -1,36 +1,29 @@
-const path = require('path');
-
-const HtmlWebpackPlugin = require('html-webpack-plugin');
-const HtmlWebpackPluginConfig = new HtmlWebpackPlugin({
-  template: './src/index.html',
-  filename: 'index.html',
-  inject: 'body'
-})
+const dev = process.env.NODE_ENV !== "production"
+const path = require( "path" )
 
 module.exports = {
-  entry: './src/index.js',
-  output: {
-    path: path.resolve('dist'),
-    filename: 'index_bundle.js'
-  },
-  module: {
-    rules: [
-      { test: /\.css$/,
-        use: [
-          { loader: "style-loader" },
-          { loader: "css-loader" }
-        ]
-      },
-      {
-        test: /\.js$/,
-        exclude: /node_modules/,
-        use: "babel-loader"
-      }, {
-        test: /\.jsx?$/,
-        exclude: /node_modules/,
-        use: "babel-loader"
-      }
-    ]
-  },
-  plugins: [HtmlWebpackPluginConfig]
+    mode: dev ? "development" : "production",
+    context: path.join( __dirname, "src" ),
+    entry: {
+        app: "./client.js",
+    },
+    resolve: {
+        modules: [
+            path.resolve( "./src" ),
+            "node_modules",
+        ],
+    },
+    module: {
+        rules: [
+            {
+                test: /\.jsx?$/,
+                exclude: /(node_modules|bower_components)/,
+                loader: "babel-loader",
+            },
+        ],
+    },
+    output: {
+        path: path.resolve( __dirname, "dist" ),
+        filename: "[name].bundle.js",
+    },
 }
