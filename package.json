@@ -1,7 +1,7 @@
 {
   "name": "fedoramagazine-clone",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "entry.js",
   "license": "MIT",
   "scripts": {
     "build": "NODE_ENV=production webpack --progress",
