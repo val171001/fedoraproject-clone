@@ -1,6 +1,6 @@
 # Fedora Project Clone
 
-Clone of the Fedora project start page (https://start.fedoraproject.org/) using react.
+Clone of the Fedora project [start page](https://start.fedoraproject.org/) using react. [Live demo](http://www.msdeus.site/171001/fpc/)
 
 ### Original site (click to open site)
 [![sample.png](https://i.postimg.cc/T2HrPdTt/sample.png)](https://start.fedoraproject.org/)
