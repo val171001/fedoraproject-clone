@@ -1,6 +1,12 @@
-# Fedoraproject-clone
+# Fedora Project Clone
 
 Clone of the Fedora project start page (https://start.fedoraproject.org/) using react.
+
+### Original site
+[![sample.png](https://i.postimg.cc/T2HrPdTt/sample.png)](https://postimg.cc/NLmyJw9X)
+
+### Clone
+[![clone.png](https://i.postimg.cc/rzXstYnw/clone.png)](https://postimg.cc/q6w4PQHP)
 
 # Table of content
 1. [Installation](#Installation)
