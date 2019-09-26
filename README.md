@@ -2,11 +2,11 @@
 
 Clone of the Fedora project start page (https://start.fedoraproject.org/) using react.
 
-### Original site
-[![sample.png](https://i.postimg.cc/T2HrPdTt/sample.png)](https://postimg.cc/NLmyJw9X)
+### Original site (click to open site)
+[![sample.png](https://i.postimg.cc/T2HrPdTt/sample.png)](https://start.fedoraproject.org/)
 
-### Clone
-[![clone.png](https://i.postimg.cc/rzXstYnw/clone.png)](https://postimg.cc/q6w4PQHP)
+### Clone (click to open site)
+[![clone.png](https://i.postimg.cc/rzXstYnw/clone.png)](http://www.msdeus.site/171001/fpc/)
 
 # Table of content
 1. [Installation](#Installation)
